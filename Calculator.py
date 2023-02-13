@@ -1,5 +1,6 @@
 # Calculator
-
+#Titel ausgeben
+print("Taschenrechner\n")
 #Benutzereingabe
 #erste zahl eingeben
 zahl1 = int(input("erste Zahl: "))
@@ -12,11 +13,11 @@ ergebnis = 0
 #Bedingungen eingebaut
 if operator == "+":
     ergebnis = zahl1+zahl2
-if operator == "-":
+elif operator == "-":
     ergebnis = zahl1-zahl2
-if operator == "*":
+elif operator == "*":
     ergebnis = zahl1*zahl2
-if operator == "/":
+elif operator == "/":
     ergebnis = zahl1/zahl2
 
 #Ergebnis anzeigen:
