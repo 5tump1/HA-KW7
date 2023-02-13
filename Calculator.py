@@ -20,22 +20,24 @@ def int_or_float(zahl):
     else:
         return int(zahl)
 #Benutzereingabe
-#erste zahl eingeben
-zahl1 = int_or_float(input("erste Zahl: "))
-#zweite zahl eingeben
-zahl2 = int_or_float(input("zweite Zahl: "))
-#welche rechenoperation soll durchgeführt werden
-operator = input("Addieren (+), Subtrahieren (-), Multiplizieren (*), Dividieren (/) : " )
-#ergebnis auf null setzen
-ergebnis = 0
-#Bedingungen/Funktionen
-if operator == "+":
-    ergebnis = add(zahl1, zahl2)
-elif operator == "-":
-    ergebnis = sub(zahl1, zahl2)
-elif operator == "*":
-    ergebnis = mult(zahl1, zahl2)
-elif operator == "/":
-    ergebnis = div(zahl1, zahl2)
-#Ergebnis anzeigen:
-print(f"{zahl1} {operator} {zahl2} = ", (ergebnis))
+while True:
+    #erste zahl eingeben
+    zahl1 = int_or_float(input("erste Zahl: "))
+    #zweite zahl eingeben
+    zahl2 = int_or_float(input("zweite Zahl: "))
+    #welche rechenoperation soll durchgeführt werden
+    operator = input("Addieren (+), Subtrahieren (-), Multiplizieren (*), Dividieren (/) : " )
+    #ergebnis auf null setzen
+    ergebnis = 0
+    #Bedingungen/Funktionen
+    if operator == "+":
+        ergebnis = add(zahl1, zahl2)
+    elif operator == "-":
+        ergebnis = sub(zahl1, zahl2)
+    elif operator == "*":
+        ergebnis = mult(zahl1, zahl2)
+    elif operator == "/":
+        ergebnis = div(zahl1, zahl2)
+    #Ergebnis anzeigen:
+    print(f"{zahl1} {operator} {zahl2} = ", (ergebnis))
+
