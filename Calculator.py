@@ -1,7 +1,7 @@
 # Calculator
 #Titel ausgeben
 print("Taschenrechner\n")
-#Benutzereingabe
+
 #Funktionen
 def add(a, b):
     return a + b
@@ -14,7 +14,7 @@ def mult(a, b):
 
 def div(a, b):
     return a / b
-    
+#Benutzereingabe
 #erste zahl eingeben
 zahl1 = float(input("erste Zahl: "))
 #zweite zahl eingeben
@@ -25,13 +25,13 @@ operator = input("Addieren (+), Subtrahieren (-), Multiplizieren (*), Dividieren
 ergebnis = 0
 #Bedingungen eingebaut
 if operator == "+":
-    ergebnis = zahl1+zahl2
+    ergebnis = add(zahl1, zahl2)
 elif operator == "-":
-    ergebnis = zahl1-zahl2
+    ergebnis = sub(zahl1, zahl2)
 elif operator == "*":
-    ergebnis = zahl1*zahl2
+    ergebnis = mult(zahl1, zahl2)
 elif operator == "/":
-    ergebnis = zahl1/zahl2
+    ergebnis = div(zahl1, zahl2)
 
 #Ergebnis anzeigen:
 print(f"{zahl1} {operator} {zahl2} = ", (ergebnis))
