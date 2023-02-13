@@ -23,7 +23,7 @@ zahl2 = float(input("zweite Zahl: "))
 operator = input("Addieren (+), Subtrahieren (-), Multiplizieren (*), Dividieren (/) : " )
 #ergebnis auf null setzen
 ergebnis = 0
-#Bedingungen eingebaut
+#Bedingungen/Funktionen
 if operator == "+":
     ergebnis = add(zahl1, zahl2)
 elif operator == "-":
