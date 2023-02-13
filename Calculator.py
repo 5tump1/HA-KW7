@@ -2,10 +2,23 @@
 #Titel ausgeben
 print("Taschenrechner\n")
 #Benutzereingabe
+#Funktionen
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def mult(a, b):
+    return a * b
+
+def div(a, b):
+    return a / b
+    
 #erste zahl eingeben
-zahl1 = int(input("erste Zahl: "))
+zahl1 = float(input("erste Zahl: "))
 #zweite zahl eingeben
-zahl2 = int(input("zweite Zahl: "))
+zahl2 = float(input("zweite Zahl: "))
 #welche rechenoperation soll durchgeführt werden
 operator = input("Addieren (+), Subtrahieren (-), Multiplizieren (*), Dividieren (/) : " )
 #ergebnis auf null setzen
