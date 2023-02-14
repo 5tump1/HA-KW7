@@ -9,12 +9,17 @@ class bankkonto:
     def abfrage_besitzer(self):
         print(f"Der Besitzer des kontos ist {self.besitzer}")
 
+    def einzahlen(self, betrag):
+
+    def auszahlen(self, betrag):
+
 
 chris = bankkonto("Chris", 100.00)
 padde = bankkonto("Padde", 245.89)
 
-print(f"{chris.besitzer}: {chris.kontostand}")
-print(f"{padde.besitzer}: {padde.kontostand}")
+print(chris)
+print(padde)
+
 
 
 
