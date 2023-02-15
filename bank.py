@@ -1,10 +1,9 @@
 #Aufgabe Bank --erweiterte hausaufagbe--
 
-class bank:
+class bankkonto:
     def __init__(self, besitzer, kontostand):
         self.besitzer = besitzer
         self.kontostand = kontostand
-    
     def __str__(self):
         return f"Dieses Konto gehört {self.besitzer} und hat ein Guthaben von {self.kontostand}"
     def abfrage_kontostand(self):
@@ -21,21 +20,32 @@ class bank:
         else:
             self.kontostand = self.kontostand - betrag
 
-konto = {
+konten = {
     "chris": bankkonto("Christopher", 250.00),
     "padde" : bankkonto("Patrick", 300.00),
-    "Uli" : bankkonto("Uli", 145.00),
+    "uli" : bankkonto("Uli", 145.00),
 }
 
 print(konten["chris"])
 print(konten["padde"])
 print(konten["uli"])
 
-class konto:
-    pass
-
 class kinderkonto:
-    pass
+    def __init__(self, besitzer, kind, kontostand):
+        super().__init__(besitzer, kontostand)
+        self.kind = kind
 
 class kredit:
-    pass
+    def __init__(self, besitzer, volumen):
+        super().__init__(besitzer)
+        self.volumen = kreditvolumen
+
+volumen = {
+    "chris" : kredit("Christopher", 10000.00),
+    "padde" : kredit("Patrick", 150000.45),
+    "uli" : kredit("Uli", 12000.33),
+}
+
+print(kredit["chris"])
+print(kredit["padde"])
+print(kreidt["uli"])
