@@ -12,3 +12,10 @@ Single responsibility Prinzip
 Open Closed Prinzip
 - Module sollen offen für erweiterungen und gleichzeitig geschlossen für modifikationen sein.
 - Module sollen nicht modifiziert werden können, mittels erweiterungen angepasst werden können.
+
+
+Interface Segregation
+- Schnittstellen aufteilungsprinzip
+- Software soll nicht abhängig von Schnittstellen sein, die sie nicht besitzen.
+- SChnittstellen werden abgetrennt.
+
