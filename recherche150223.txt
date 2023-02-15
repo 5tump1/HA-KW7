@@ -23,3 +23,6 @@ Dependency Inversion
 - Umkehr von Abhängigkeiten
 - Module höherer Ebenen sollen nicht von niedrigeren Ebenen abhängig sein.
 - Beide sollen nur von den Interfaces abhängig sein.
+- Interfaces sollten nicht von Details abhängig sein.
+- Die Details sollen von den Interfaces abhängig sein.
+
