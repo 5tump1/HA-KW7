@@ -1,3 +1,13 @@
 das Liskovsche Substitutionsprinzip
 - Ersetzbarkeitsprinzip.
 - jede klasse soll in jedem fall durch ihre unterklassen ersetzt werden können.
+
+
+Single responsibility
+- Das Prinzip einer einzigen Verantwotung
+- Jedes Modul soll genau eine Verantwortung übernehmen.
+- Jede Verantwortung soll einem Modul zugeordnet sein.
+- 
+
+Open Closed
+- 
