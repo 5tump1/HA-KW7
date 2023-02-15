@@ -1,25 +1,27 @@
-Das Liskovsche Substitutionsprinzip
+**Das Liskovsche Substitutionsprinzip**
 - Ersetzbarkeitsprinzip.
 - jede klasse soll in jedem fall durch ihre unterklassen ersetzt werden können.
 
 
-Single responsibility Prinzip
+**Single responsibility Prinzip**
 - Das Prinzip einer einzigen Verantwotung
 - Jedes Modul soll genau eine Verantwortung übernehmen.
 - Jede Verantwortung soll einem Modul zugeordnet sein.
 - lieber viele kleine klassen als eine grosse
 
-Open Closed Prinzip
+
+**Open Closed Prinzip**
 - Module sollen offen für erweiterungen und gleichzeitig geschlossen für modifikationen sein.
 - Module sollen nicht modifiziert werden können, mittels erweiterungen angepasst werden können.
 
 
-Interface Segregation
+**Interface Segregation**
 - Schnittstellen aufteilungsprinzip
 - Software soll nicht abhängig von Schnittstellen sein, die sie nicht besitzen.
 - Schnittstellen werden abgetrennt.
 
-Dependency Inversion
+
+**Dependency Inversion**
 - Umkehr von Abhängigkeiten
 - Module höherer Ebenen sollen nicht von niedrigeren Ebenen abhängig sein.
 - Beide sollen nur von den Interfaces abhängig sein.
