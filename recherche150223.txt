@@ -3,11 +3,12 @@ das Liskovsche Substitutionsprinzip
 - jede klasse soll in jedem fall durch ihre unterklassen ersetzt werden können.
 
 
-Single responsibility
+Single responsibility Prinzip
 - Das Prinzip einer einzigen Verantwotung
 - Jedes Modul soll genau eine Verantwortung übernehmen.
 - Jede Verantwortung soll einem Modul zugeordnet sein.
 - 
 
-Open Closed
-- 
+Open Closed Prinzip
+- Module sollen offen für erweiterungen und gleichzeitig geschlossen für modifikationen sein.
+- Module sollen nicht modifiziert werden können, mittels erweiterungen angepasst werden können.
