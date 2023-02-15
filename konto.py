@@ -17,11 +17,11 @@ class bankkonto:
             print("Sorry: du kannst nicht mehr geld abheben als du hast!")
         else:
             self.kontostand = self.kontostand - betrag
-class kindersparkonto(bankkonto)
+class kindersparkonto(bankkonto):
     def __init__(self, besitzer, kind,  kontostand):
         super().__init__(besitzer, kontostand)
         self.kind = kind
-        
+
 
 konten = {
     "uli": bankkonto("Sir U. v. Liechtenstein", 100.0),

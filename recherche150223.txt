@@ -1,0 +1,3 @@
+das Liskovsche Substitutionsprinzip
+- Ersetzbarkeitsprinzip.
+- jede klasse soll in jedem fall durch ihre unterklassen ersetzt werden können.
