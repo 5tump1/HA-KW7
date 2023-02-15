@@ -17,5 +17,9 @@ Open Closed Prinzip
 Interface Segregation
 - Schnittstellen aufteilungsprinzip
 - Software soll nicht abhängig von Schnittstellen sein, die sie nicht besitzen.
-- SChnittstellen werden abgetrennt.
+- Schnittstellen werden abgetrennt.
 
+Dependency Inversion
+- Umkehr von Abhängigkeiten
+- Module höherer Ebenen sollen nicht von niedrigeren Ebenen abhängig sein.
+- Beide sollen nur von den Interfaces abhängig sein.
