@@ -1,1 +1,14 @@
 # DRY and KISS Prinzip
+
+DRY:
+- Dont repeat Yourrself (wiederhol dich nicht selber)
+- Programcode einfach halten
+- Wiederhole nicht den code mit selben inhalt.
+- vermeide Copy _& Paste
+
+
+KISS:
+- Keep it Simple, Stupid!
+- Halte den Code so einfach wie möglich.
+- was it a dumb idea if it works?
+- Wenn du deinen Code nach kurzer zeit schon selber nicht mehr verstehst, ist was schief gelaufen.
