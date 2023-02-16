@@ -44,6 +44,13 @@ def laengecheck(wort):
     else:
         return False
 
+def repitioncheck(wort):
+    for i in range(0, len(wort) - 2):
+        if wort[i] == wort[i + 1] == wort[i + 2]:
+            return False
+        else:
+            return True
+
 def passwortpruefer(wort):
     if numcheck(wort) and uppercasecheck(wort) and lowercasecheck(wort) and specialcheck(wort) and laengecheck(wort):
         print("Gültig")
